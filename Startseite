@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>Neustart</title>
+<link rel="stylesheet" href="style.ns.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item left"></div>
+    <div class="grid-item right"></div>
+    <div class="grid-item back">noback</div>
+
+    <div class="grid-item header">
+     <h1>NEUSTART</h1>
+    </div>
+
+    <div class="grid-item photo1">
+      <h1></h1>
+    </div>
+    <div class="grid-item photo2">
+      <h1></h1>
+    </div>
+    <div class="grid-item photo3">
+      <h1></h1>
+    </div>
+<div class="grid-item button1">
+<button>
+  <a href="/Users/jolien/Documents/Github/bike-and-code/bike.html">
+    <h2>bike</h2>
+  </a>
+</button>
+</div>
+
+<div class="grid-item button2">
+<button>
+  <a href="/Users/jolien/Documents/Github/bike-and-code/UND.html">
+    <h2>UND</h2>
+  </a>
+</button>
+</div>
+
+<div class="grid-item button3">
+<button>
+  <a href="/Users/jolien/Documents/Github/bike-and-code/code.html">
+    <h2>code</h2>
+  </a>
+</button>
+</div>
+<div class="grid-item bottom"></div>
+<div class="grid-item footer">
+  <p>written by jolien trog</p>
+</div>
+</div>
+</body>
+</html>
