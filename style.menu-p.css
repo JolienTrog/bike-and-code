@@ -1,0 +1,118 @@
+body {
+    background-color: cadetblue;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  button {
+    background-color: linen;
+    border: solid 10px darkgray;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  a {
+    color: black;
+    font-style: normal;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 80px;
+    color:linen;
+  
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+    "left back . . right"
+    "left header header header right"
+    "left photo1 photo2 photo3 right"
+    "left button1 button2 button3 right"
+    "left bottom bottom bottom right"
+    "left bottom bottom bottom right"
+    "left bottom bottom bottom right"
+    "left bottom bottom bottom right"
+    "left footer footer footer right";
+  }
+  
+  .grid-item{
+    text-align: center;
+  }
+  
+  .left{
+    grid-area: left;
+    background-color: linen;
+    border-right: 5px solid white;
+  }
+  
+  .right{
+    grid-area: right;
+    background-color: linen;
+    border-left: 5px solid white;
+  }
+  
+  .back {
+    grid-area: back;
+    color: linen;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .header{
+    grid-area: header;
+  }
+  .photo1{
+    grid-area: photo1;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 5px solid darkgray;
+    background-color: #FF7F50;
+    padding: 60px;
+  }
+  .photo2{
+    grid-area: photo2;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 5px solid darkgray;
+    background-color: #E6E6FA;
+    padding: 60px;
+  }
+  .photo3{
+    grid-area: photo3;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 5px solid darkgray;
+    background-color: #BA55D3;
+    padding: 60px;
+  }
+  .button1{
+    grid-area: button1;
+  }
+  .button2{
+    grid-area: button2;
+  }
+  .button3{
+    grid-area: button3;
+  }
+  .bottom{
+    grid-area: bottom;
+    padding: 100px;
+  }
+  .footer{
+    grid-area: footer;
+  }
+  
