@@ -1,3 +1,5 @@
+![](https://github.com/JolienTrog/Jolien-Trog/blob/main/header%20bike%20and%20code.jpg)
+
 # bike-and-code
 cycling is my passion an coding is my new area i will discover!
 
